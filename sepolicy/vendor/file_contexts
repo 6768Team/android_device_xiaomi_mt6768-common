@@ -1,5 +1,6 @@
 # Audio
 /data/vendor/cirrus(/.*)?	u:object_r:mtk_audiohal_data_file:s0
+/mnt/vendor/persist/audio(/.*)? u:object_r:mtk_audiohal_data_file:s0
 
 # FingerPrint
 /mnt/vendor/persist/goodix(/.*)? u:object_r:fp_data_file:s0
