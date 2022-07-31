@@ -1,1 +1,6 @@
-allow hal_health_default sysfs:file rw_file_perms;
+allow hal_health_default sysfs_ac_supply:file { read open getattr };
+allow hal_health_default sysfs_ac_supply:dir search;
+allow hal_health_default sysfs_battery_supply:file { read open getattr };
+allow hal_health_default sysfs_battery_supply:dir search;
+allow hal_health_default sysfs_charger_supply:file { read open getattr };
+allow hal_health_default sysfs_charger_supply:dir search;
