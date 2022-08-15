@@ -1,5 +1,5 @@
-# Allow priv_app to get debug_mtk_gpud_prop
-get_prop(priv_app, debug_mtk_gpud_prop)
+# Allow priv_app to get vendor_mtk_gpu_prop
+get_prop(priv_app, vendor_mtk_gpu_prop)
 
 allow priv_app sw_sync_device:chr_file rw_file_perms;
 

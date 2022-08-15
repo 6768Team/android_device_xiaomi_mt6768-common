@@ -1,2 +1,0 @@
-allow mediacodec sysfs_bus:dir search;
-allow mediacodec sysfs_emi_ctrl:dir search;
