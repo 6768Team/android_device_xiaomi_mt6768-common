@@ -31,6 +31,3 @@
 
 # WiFi
 /(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@[0-9]\.[0-9]-service-lazy\.mt6768 u:object_r:hal_wifi_default_exec:s0
-
-# Vibrator
-/vendor/bin/hw/android\.hardware\.vibrator-service\.mt6768 u:object_r:hal_vibrator_default_exec:s0

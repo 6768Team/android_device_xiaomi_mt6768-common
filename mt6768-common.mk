@@ -337,10 +337,12 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.mt6768
+    android.hardware.vibrator-service.mediatek
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(COMMON_PATH) \
+    hardware/mediatek
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
