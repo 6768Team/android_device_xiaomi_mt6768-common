@@ -1,1 +1,2 @@
 set_prop(mtk_hal_camera, vendor_mi_camera_prop)
+allow mtk_hal_camera persist_data_file:dir { search };
