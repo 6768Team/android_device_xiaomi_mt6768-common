@@ -3,7 +3,6 @@ allow gmscore_app mtk_cmdq_device:chr_file rw_file_perms;
 allow gmscore_app mtk_mdp_device:chr_file rw_file_perms;
 allow gmscore_app sw_sync_device:chr_file rw_file_perms;
 
-allow gmscore_app mtk_hal_pq_hwservice:hwservice_manager find;
 binder_call(gmscore_app, mtk_hal_pq)
 
 # Silent harmless spolicy
