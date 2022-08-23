@@ -1,3 +1,7 @@
+# Audio
+vendor.audio.mic.                    u:object_r:vendor_mtk_audiohal_prop:s0
+vendor.audio.chk.                    u:object_r:vendor_mtk_audiohal_prop:s0
+
 # Camera
 persist.vendor.camera.privapp.list    u:object_r:exported_default_prop:s0
 persist.vendor.camera.mi.             u:object_r:vendor_mi_camera_prop:s0
