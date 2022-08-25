@@ -342,6 +342,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
+    $(DEVICE_PATH) \
     hardware/mediatek
 
 # Overlays
